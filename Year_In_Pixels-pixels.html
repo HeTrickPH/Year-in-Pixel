@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Year In Pixel</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+<!--Main CSS-->
+<link rel="stylesheet" href="year_in_pixel_css.css">
+
+<script src="YPjs.js"></script>
+
+</head>
+
+<body>
+	<table id="pixel_calender" class="table table-bordered">
+		<thead id="pixel_calender_header">
+			<tr>
+				<th>   </th>
+				<th>Jan</th>
+				<th>Feb</th>
+				<th>Mar</th>
+				<th>Api</th>
+				<th>May</th>
+				<th>Jun</th>
+				<th>Jul</th>
+				<th>Aug</th>
+				<th>Sep</th>
+				<th>Oct</th>
+				<th>Nov</th>
+				<th>Dec</th>
+			</tr>
+		</thead>
+		<tbody id="pixel_calender_dates">
+			
+		</tbody>
+	</table>
+	
+<div id="colorPicker" style="display: none">
+	<table>
+		<tr>
+			<th class="ColorChoise" style="background-color: #ff9999" onClick="PixelChange('#ff9999')"></th>
+			<th class="ColorChoise" style="background-color: #ffff99" onClick="PixelChange('#ffff99')"></th>
+			<th class="ColorChoise" style="background-color: aqua" onClick="PixelChange('aqua')"></th>
+		</tr>
+		<tr>
+			<th class="ColorChoise" style="background-color: #66ff99" onClick="PixelChange('#66ff99')"></th>
+			<th class="ColorChoise" style="background-color: #ff66ff" onClick="PixelChange('#ff66ff')"></th>
+			<th class="ColorChoise"  style="background-color: #666699" onClick="PixelChange('#666699')"></th>
+		</tr>
+		<tr>
+			<th class="ColorChoise" style="background-color: #b3b3cc" onClick="PixelChange('#b3b3cc')"></th>
+			<th class="ColorChoise" style="background-color: #99ccff" onClick="PixelChange('#99ccff')"></th>
+			<th class="ColorChoise" style="background-color: White" onClick="PixelChange('White')"></th>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>
